@@ -1,0 +1,6 @@
+---
+applications:
+- name: httpd-route-service
+  # use the PHP buildpack 'cause it's already got Apache HTTPD
+  buildpack: php_buildpack
+  path: public
